@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:openDrawer="start"
+    tools:context=".EmpActivity">
+
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/drwable"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal"
+
+            android:id="@+id/first"
+            android:gravity="center"
+
+            >
+
+
+<!--            <ImageView-->
+<!--                android:id="@+id/ivImage"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--                app:srcCompat="@drawable/bar" />-->
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                app:srcCompat="@drawable/logo_doctify" />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView5"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                app:srcCompat="@drawable/bell" />-->
+
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="414dp"-->
+<!--            android:layout_height="123dp"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_marginTop="64dp"-->
+<!--            android:paddingLeft="34dp"-->
+<!--            android:background="@color/red"-->
+<!--            android:paddingTop="14dp">-->
+
+
+
+<!--&lt;!&ndash;            <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/searchBar"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="315dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:drawableRight="@android:drawable/ic_menu_search"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:hint="Search"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textSize="12sp"&ndash;&gt;-->
+<!--&lt;!&ndash;              android:paddingTop="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:paddingLeft="15dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:fontFamily="@font/poppins"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:background="@drawable/search_bar"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginTop="50dp"/>&ndash;&gt;-->
+
+
+
+<!--        </LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                android:layout_below="@+id/first">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/banner"
+
+                    />
+
+
+<!--                <TextView-->
+<!--                    android:layout_width="146dp"-->
+<!--                    android:layout_height="24dp"-->
+<!--                    android:layout_marginLeft="30dp"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:fontFamily="@font/poppins"-->
+<!--                    android:lineHeight="23.52dp"-->
+<!--                    android:text="Categories"-->
+<!--                    android:textColor="@color/black_job"-->
+<!--                    android:textSize="15.68sp"-->
+<!--                    android:textStyle="normal" />-->
+
+<!--                <androidx.recyclerview.widget.RecyclerView-->
+<!--                    android:id="@+id/rvEmp"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="80dp"-->
+<!--                    android:layout_marginLeft="31.72dp"-->
+<!--                    android:layout_marginTop="10.67dp"-->
+<!--                    tools:listitem="@layout/emp_sample">-->
+
+
+<!--                </androidx.recyclerview.widget.RecyclerView>-->
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:lineHeight="23.52dp"
+                    android:text="Hire best Doctor"
+                    android:textColor="@color/black_job"
+                    android:textSize="15.68sp"
+                    android:textStyle="normal" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/empResRv"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="20dp"
+                        tools:listitem="@layout/cateogries_sample"
+
+
+                        >
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp">
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_alignParentBottom="true"
+
+            android:background="@drawable/box_linear"
+            android:elevation="10dp"
+            android:backgroundTint="@color/down_gray"
+
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/jam_write"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="74dp"
+                app:srcCompat="@drawable/carbon_home" />
+
+            <ImageView
+                android:id="@+id/chat"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="74dp"
+                app:srcCompat="@drawable/chat_flunt" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+    />
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

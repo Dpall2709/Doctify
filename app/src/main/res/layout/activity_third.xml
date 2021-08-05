@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/arrow_left"-->
+<!--        android:layout_width="38dp"-->
+<!--        android:layout_height="38dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_marginLeft="5dp"-->
+<!--        android:background="@drawable/gray_arrow"-->
+<!--        app:srcCompat="?attr/homeAsUpIndicator"-->
+<!--        app:tint="@color/white"/>-->
+    <ImageView
+        android:id="@+id/emp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/search_doctor"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/emp"
+        android:background="@drawable/box_linear"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingLeft="10dp"
+        android:elevation="10dp"
+        android:layout_marginLeft="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Started!!"
+            android:textSize="28sp"
+
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"/>
+
+
+        <LinearLayout
+            android:layout_width="328dp"
+            android:layout_height="180dp"
+            android:background="@drawable/rect"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:elevation="10dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Find Job"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/poppins"
+
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Find a better job for your\n growth on one click"
+                    android:padding="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:id="@+id/btnFind"
+                    android:layout_width="159dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Find Job"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:drawableRight="@drawable/vector"
+
+                    android:background="@drawable/rect_small"
+
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:src="@drawable/emp_one"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="195dp"
+            android:background="@drawable/rect"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+
+            android:elevation="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/poppins"
+                    android:padding="10dp"
+                    android:text="Hire Employees"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:text="FLooking to hire professional\nDoctos,Nurses and so on\nfor your organization?"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/hireEmp"
+                    android:layout_width="159dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Hire Now"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:drawableRight="@drawable/vector"
+
+                    android:background="@drawable/rect_small"
+
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-10dp"
+
+                android:src="@drawable/bw" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/box_linear"
+            android:elevation="10dp"
+            android:backgroundTint="@color/down_gray"
+
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/jam_write"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="74dp"
+                app:srcCompat="@drawable/carbon_home" />
+
+            <ImageView
+                android:id="@+id/chat"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="74dp"
+                app:srcCompat="@drawable/chat_flunt" />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

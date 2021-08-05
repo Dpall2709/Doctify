@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultThreeActivity">
+
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="63dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="-120dp"-->
+<!--            app:srcCompat="@drawable/bar" />-->
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:srcCompat="@drawable/logo_doctify" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="123dp"
+        android:orientation="vertical"
+        android:layout_marginTop="64dp"
+        android:paddingLeft="34dp"
+        android:background="@color/red"
+        android:paddingTop="14dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/resulthead"
+            android:layout_width="168dp"
+            android:layout_height="38dp"
+            android:text="Gynaecology"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins"
+            android:textStyle="normal"
+
+            />
+
+
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="90dp"-->
+<!--        android:layout_marginTop="187dp"-->
+<!--        android:paddingLeft="39dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="85dp"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:text="Job Result"-->
+<!--            android:fontFamily="@font/poppins"-->
+<!--            android:textStyle="normal"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textColor="#424242"-->
+<!--            android:layout_marginTop="35dp"/>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="20dp"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="4"-->
+<!--                android:textColor="#424242"-->
+<!--                android:textSize="14sp"-->
+<!--                android:fontFamily="@font/poppins"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Job founded"-->
+<!--                android:textSize="14sp"-->
+<!--                android:fontFamily="@font/poppins"-->
+<!--                android:textColor="#424242"-->
+<!--                android:layout_marginLeft="2dp"/>-->
+
+<!--        </LinearLayout>-->
+
+
+
+<!--    </LinearLayout>-->
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="@drawable/long_line"-->
+<!--        android:layout_marginTop="277.25dp"-->
+<!--        />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="178dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                tools:listitem="@layout/sample_result"
+
+
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+
+        android:background="@drawable/box_linear"
+        android:elevation="10dp"
+        android:backgroundTint="@color/down_gray"
+
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/jam_write"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="74dp"
+            app:srcCompat="@drawable/carbon_home" />
+
+        <ImageView
+            android:id="@+id/chat"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="74dp"
+            app:srcCompat="@drawable/chat_flunt" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

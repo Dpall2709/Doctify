@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="354dp"
+    android:layout_height="160dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/result_rect_box"
+    android:elevation="10dp"
+    android:layout_marginTop="18dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="354dp"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp"
+        app:cardMaxElevation="10dp"
+
+        android:elevation="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <ImageView
+                android:id="@+id/imageResult"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                app:srcCompat="@drawable/ganaecologist"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="29dp"
+                android:background="@drawable/round_white"
+                android:elevation="10dp"/>
+
+            <LinearLayout
+                android:layout_width="267dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nameResultTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Gynaecology"
+                    android:textColor="#424242"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/descResult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in." />
+
+                <LinearLayout
+                    android:layout_width="265dp"
+                    android:layout_height="12pt"
+                    android:paddingTop="5dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="6dp"
+                        android:layout_height="8dp"
+
+                        app:srcCompat="@drawable/location_icon" />
+
+                    <TextView
+                        android:id="@+id/placeResult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2.9dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="New Delhi"
+                        android:textColor="@color/black_job"
+                        android:textSize="8sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView22"
+                        android:layout_width="8dp"
+                        android:layout_height="4.98dp"
+                        android:layout_marginLeft="8dp"
+
+                        app:srcCompat="@drawable/degree_img" />
+
+                    <TextView
+                        android:id="@+id/degreeResult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2.9dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Master's Degree"
+                        android:textColor="@color/black_job"
+                        android:textSize="8sp" />
+
+
+                    <ImageView
+                        android:id="@+id/imageView23"
+                        android:layout_width="7.64dp"
+                        android:layout_height="7dp"
+                        android:layout_marginLeft="8dp"
+
+                        app:srcCompat="@drawable/salary_img" />
+
+                    <TextView
+                        android:id="@+id/salaryResult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2.9dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="30"
+                        android:textColor="@color/black_job"
+                        android:textSize="8sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="L"
+                        android:textColor="@color/black_job"
+                        android:textSize="8sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="/"
+                        android:textColor="@color/black_job"
+                        android:textSize="8sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Month"
+                        android:textColor="@color/black_job"
+                        android:textSize="8sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="17dp"
+                    android:background="@drawable/fulltime_box"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="10dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Full Time"
+                        android:textColor="@color/white"
+                        android:textSize="8sp"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="290dp"
+                    android:layout_marginTop="-20dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/dateResult"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="2"
+                        android:textColor="@color/black_job"
+                        android:textSize="8sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="d"
+                        android:textColor="@color/black_job"
+                        android:textSize="8sp"
+                        android:textStyle="normal" />
+
+
+                </LinearLayout>
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageV"-->
+<!--                    android:layout_width="18.64dp"-->
+<!--                    android:layout_height="16.39dp"-->
+<!--                    app:srcCompat="@drawable/heart_shape"-->
+<!--                    android:layout_marginTop="-124dp"-->
+<!--                    android:layout_marginLeft="224dp"-->
+
+<!--                    android:elevation="10dp"/>-->
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

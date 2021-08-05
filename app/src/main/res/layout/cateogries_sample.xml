@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="120dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="5dp"
+    android:background="@drawable/cateogries_rect_box"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+
+
+
+           >
+            <ImageView
+                android:id="@+id/imgEmpSecond"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/round_white"
+                android:elevation="10dp"
+                android:src="@drawable/ganaecologist"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="14dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="18dp">
+
+<!--                <TextView-->
+<!--                    android:id="@+id/nameDr"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Eleanor Pena"-->
+<!--                    android:textColor="@color/black_job"-->
+<!--                    android:fontFamily="@font/poppins"-->
+<!--                    android:textSize="12sp"/>-->
+                <TextView
+                    android:id="@+id/nameSpec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black_job"
+                    android:text="Cardiologist"
+                    android:fontFamily="@font/poppins"
+
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/location_icon"/>
+
+                    <TextView
+
+                        android:id="@+id/addressDr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="New Delhi"
+                        android:textColor="@color/black_job"
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp">
+
+                    <TextView
+
+                        android:id="@+id/workDay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="Full Time"
+                        android:textColor="@color/black_job"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/expre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="4 Year Experience"
+                        android:textColor="@color/black_job"
+                        android:textSize="10sp" />
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="49dp"-->
+<!--                        android:layout_height="23dp"-->
+<!--                        android:layout_marginLeft="80dp"-->
+<!--                        android:background="@drawable/rect_small_red"-->
+
+<!--                        >-->
+<!--                        <ImageView-->
+<!--                            android:layout_width="15dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:src="@drawable/star"-->
+<!--                            android:layout_marginLeft="4dp"-->
+<!--                            android:layout_marginTop="4dp"/>-->
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/rating"-->
+<!--                            android:layout_width="15dp"-->
+<!--                            android:layout_height="15dp"-->
+<!--                            android:layout_marginLeft="8dp"-->
+<!--                            android:layout_marginTop="4dp"-->
+<!--                            android:fontFamily="@font/poppins"-->
+<!--                            android:text="4.5"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textSize="10sp" />-->
+
+
+<!--                    </LinearLayout>-->
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

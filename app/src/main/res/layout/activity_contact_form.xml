@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactFormActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ContactArrow"-->
+<!--        android:layout_width="20.33dp"-->
+<!--        android:layout_height="16.33dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="18.33dp"-->
+<!--        app:srcCompat="?attr/homeAsUpIndicator"-->
+<!--        app:tint="@color/red"-->
+<!--        />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Form"
+            android:layout_marginTop="18.33dp"
+            android:layout_marginLeft="90dp"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-32dp"
+        app:srcCompat="@drawable/curve" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingTop="100dp"
+       >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="First Name "
+
+        app:boxStrokeColor="@color/gray"
+        app:hintTextColor="@color/gray_dark">
+
+
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstNameContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/email_shape"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etl"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:hint="Last Name"
+
+            app:boxStrokeColor="@color/gray"
+            app:hintTextColor="@color/gray_dark">
+
+
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/lstNameContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/email_shape"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etle1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        app:boxStrokeColor="@color/gray"
+        app:hintTextColor="@color/gray_dark"
+        android:inputType="textEmailAddress"
+        >
+
+
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/email_vector"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:hint="Email's Password"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        app:boxStrokeColor="@color/gray"-->
+<!--        app:hintTextColor="@color/gray_dark"-->
+
+
+<!--        >-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/passwordContact"-->
+
+<!--            android:drawableRight="@drawable/img_password"/>-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            app:boxStrokeColor="@color/gray"
+            app:hintTextColor="@color/gray_dark"
+
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/phoneContact"
+                android:drawableRight="@drawable/phone_vector"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/sendEmailContact"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Send Detail"
+            android:background="@drawable/btn_uplod"/>
+    </LinearLayout>
+
+</LinearLayout>

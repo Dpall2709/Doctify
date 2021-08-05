@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindJob">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ivImage"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--          android:layout_marginLeft="-120dp"-->
+<!--            app:srcCompat="@drawable/bar" />-->
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:srcCompat="@drawable/logo_doctify" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView5"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--           android:layout_marginLeft="40dp"-->
+<!--            app:srcCompat="@drawable/bell" />-->
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="123dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="64dp"
+        android:paddingLeft="34dp"
+        android:background="@color/red"
+       android:paddingTop="14dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins"
+            android:textStyle="normal"
+            android:text="HELLO"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/getName"
+            android:layout_width="68dp"
+            android:layout_height="21dp"
+            android:textSize="14sp"
+           android:fontFamily="@font/poppins"
+            android:textStyle="normal"
+            android:text="Hello XYZ"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/white"/>
+<!--        <TextView-->
+
+<!--            android:layout_width="183dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:text="Find your dream job here "-->
+<!--            android:fontFamily="@font/poppins"-->
+<!--            android:textSize="14sp"-->
+<!--            android:textStyle="normal"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_marginTop="5dp"/>-->
+<!--<EditText-->
+<!--    android:layout_width="315dp"-->
+<!--    android:layout_height="35dp"-->
+<!--    android:background="@drawable/search_bar"-->
+<!--    android:hint="Serarch"-->
+<!--    android:paddingLeft="20dp"-->
+<!--    android:id="@+id/searchBar"-->
+<!--/>-->
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="186dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+
+            <TextView
+                android:layout_width="146dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/poppins"
+                android:lineHeight="23.52dp"
+                android:text="Job Specialization"
+                android:textColor="@color/black_job"
+                android:textSize="15.68sp"
+                android:textStyle="normal" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv1"
+                android:layout_width="match_parent"
+                android:layout_height="111.98dp"
+                android:layout_marginTop="19.67dp"
+                android:layout_marginLeft="31.72dp"
+                tools:listitem="@layout/job_sample"
+                >
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/poppins"
+                android:lineHeight="23.52dp"
+                android:text="Hospitals Hiring with us"
+                android:textColor="@color/black_job"
+                android:textSize="15.68sp"
+                android:textStyle="normal" />
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginTop="19.76dp"-->
+<!--                android:layout_marginLeft="31.72dp"-->
+<!--                android:paddingLeft="10dp">-->
+<!--                <HorizontalScrollView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:id="@+id/horizontalScrollView">-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_margin="1dp"-->
+<!--                        android:background="@drawable/job_sample_back"-->
+
+
+<!--                        app:cardCornerRadius="10dp"-->
+<!--                        app:cardMaxElevation="5dp">-->
+
+
+<!--                        <ImageView-->
+<!--                            android:id="@+id/imageView"-->
+<!--                            android:layout_width="50.89dp"-->
+<!--                            android:layout_height="50.89dp"-->
+<!--                            android:layout_marginLeft="31.28dp"-->
+<!--                            android:layout_marginTop="17.33dp"-->
+<!--                            android:layout_marginRight="29.8dp"-->
+<!--                            app:srcCompat="@drawable/ganaecologist" />-->
+
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/medName"-->
+<!--                            android:layout_width="75dp"-->
+<!--                            android:layout_height="13dp"-->
+<!--                            android:layout_marginLeft="18.26dp"-->
+<!--                            android:layout_marginTop="78.33dp"-->
+<!--                            android:fontFamily="@font/poppins"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="Gynaecology"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:textSize="10sp" />-->
+<!--                    </androidx.cardview.widget.CardView>-->
+
+
+
+<!--                </HorizontalScrollView>-->
+
+
+
+
+<!--            </LinearLayout>-->
+
+                            <androidx.recyclerview.widget.RecyclerView
+                              android:id="@+id/rv2"
+                                android:layout_width="match_parent"
+                                android:layout_height="111.98dp"
+                                android:layout_marginLeft="31.72dp"
+                                tools:listitem="@layout/latest_job_sample"
+                                >
+
+
+                            </androidx.recyclerview.widget.RecyclerView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="154dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="31.91dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Doctify india 2 step hiring process"
+                    android:textColor="@color/black_job"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="2dp">
+
+                    <View
+                        android:layout_width="80.67dp"
+                        android:layout_height="7dp"
+                        android:layout_marginTop="38dp"
+                        android:background="@drawable/rect_shape" />
+
+                    <View
+                        android:layout_width="121dp"
+                        android:layout_height="9.41dp"
+                        android:layout_marginTop="6.4dp"
+                        android:background="@drawable/rect_shape"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="18dp">
+
+                <LinearLayout
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/round_back">
+
+
+                    <TextView
+                        android:layout_width="34.99dp"
+                        android:layout_height="17.92dp"
+                        android:text="Step 1"
+                        android:fontFamily="@font/poppins"
+                        android:textSize="11.95sp"
+                        android:textColor="#D61313"
+
+                        android:layout_marginLeft="14.51dp"
+                        android:layout_marginTop="23.04dp"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="239dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="18dp"
+                    android:text="Click on suitable job option and apply."
+                    android:textSize="10sp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="#000000"/>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="17dp">
+
+
+                <TextView
+                    android:layout_width="234dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="18dp"
+                    android:text="Wait for our call and complete your interview process."
+                    android:textSize="10sp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="#000000"/>
+                <LinearLayout
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/round_back">
+
+
+                    <TextView
+                        android:layout_width="36dp"
+                        android:layout_height="17.92dp"
+                        android:text="Step 2"
+                        android:fontFamily="@font/poppins"
+                        android:textSize="11.95sp"
+                        android:textColor="#D61313"
+
+                        android:layout_marginLeft="14.51dp"
+                        android:layout_marginTop="23.04dp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/box_linear"
+        android:elevation="10dp"
+        android:backgroundTint="@color/down_gray"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/jam_write"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="74dp"
+            app:srcCompat="@drawable/carbon_home" />
+
+        <ImageView
+            android:id="@+id/chat"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="74dp"
+            app:srcCompat="@drawable/chat_flunt" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

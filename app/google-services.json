@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "80731440332",
+    "project_id": "doctifyandroid",
+    "storage_bucket": "doctifyandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80731440332:android:a4b87d7f9442bc49bcee69",
+        "android_client_info": {
+          "package_name": "com.example.doctify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80731440332-d5an70bgr5se401m4e471agnq2j1965h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALX8_TUIP80dWYnv32UpusMJT_xML1vRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80731440332-d5an70bgr5se401m4e471agnq2j1965h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

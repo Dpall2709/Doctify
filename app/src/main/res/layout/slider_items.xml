@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear1">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="211dp"
+            app:srcCompat="@drawable/one_info" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linear2"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="Where Employeess Meet \n  Employees in a Click"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="normal"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:paddingTop="5dp"
+                android:text="Doctify india is one of the biggest hospital recruitment services with an experience of 9 years.Our portal is authentic,reliable,and easy-to-use.We carry out all the\n formalities with utmost care and perfection.Thus it benefits both the employers as well as the employees."
+                android:textAlignment="center"
+                android:textColor="@color/text_black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:fontFamily="@font/poppins"
+                android:id="@+id/text2"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
