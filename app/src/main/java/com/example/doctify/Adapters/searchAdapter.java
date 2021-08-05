@@ -54,6 +54,7 @@ public class searchAdapter extends RecyclerView.Adapter<searchAdapter.viewholder
                 intent.putExtra("degree",model.getDegree());
                 intent.putExtra("image",model.getImage());
                 intent.putExtra("name",model.getName());
+                intent.putExtra("salary",model.getSalary());
 
                 context.startActivity(intent);
             }

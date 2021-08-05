@@ -75,13 +75,13 @@ public class ResultEightActivity extends AppCompatActivity {
         binding.resulthead.setText(name);
 
         ArrayList<ResultTwoModel> list = new ArrayList<>();
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","patna","Master Degree","30","2","Critical Care",R.drawable.cirtical_care));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","Lakhisarai","Master Degree","30","2","Critical Care",R.drawable.cirtical_care));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","Critical Care",R.drawable.cirtical_care));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","Critical Care",R.drawable.cirtical_care));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","Critical Care",R.drawable.cirtical_care));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","Critical Care",R.drawable.cirtical_care));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","Critical Care",R.drawable.cirtical_care));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced Critical Care to care the conditions in patients.","Madhubani","Master Degree","3","2","Specialist Critical Care consultant Dr jobs",R.drawable.cirtical_care));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced Critical Care to care the conditions in patients.","Farrukhabad","Master Degree","3","2","Specialist Critical Care consultant Dr jobsritical Care",R.drawable.cirtical_care));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced Critical Care to care the conditions in patients.","Pune ","Master Degree","3","2","MBBS Critical Care Specialist",R.drawable.cirtical_care));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced Critical Care to care the conditions in patients.","Gurugram","Master Degree","3","2","consultant critical care medicine jobs",R.drawable.cirtical_care));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced Critical Care to care the conditions in patients.","Ghaziabad","Master Degree","3","2","Critical Care Medicine",R.drawable.cirtical_care));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced Critical Care to care the conditions in patients.","Agra","Master Degree","3","2","Critical Care Medicine",R.drawable.cirtical_care));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced Critical Care to care the conditions in patients.","Noida","Master Degree","3","2","Medical Officer -Critical Care Specialist",R.drawable.cirtical_care));
         ResultTwoAdapter adapter = new ResultTwoAdapter(list,this);
         binding.rv4.setAdapter(adapter);
 

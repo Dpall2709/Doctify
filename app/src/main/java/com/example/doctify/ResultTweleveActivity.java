@@ -75,13 +75,13 @@ public class ResultTweleveActivity extends AppCompatActivity {
         binding.resulthead.setText(name);
 
         ArrayList<ResultTwoModel> list = new ArrayList<>();
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","patna","Master Degree","30","2","Oncology",R.drawable.oncology));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","Lakhisarai","Master Degree","30","2","Oncology",R.drawable.oncology));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","Oncology",R.drawable.oncology));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","Oncology",R.drawable.oncology));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","Oncology",R.drawable.oncology));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","Oncology",R.drawable.oncology));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","Oncology",R.drawable.oncology));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced  Oncology to care the conditions in patients.","Indore","Master Degree","3","2","Urgent Requirement of Oncologist Doctor",R.drawable.oncology));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced  Oncology to care the conditions in patients.","Gurugram","Master Degree","2","2","Job opening For Senior Resident Radiation Oncologist",R.drawable.oncology));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced  Oncology to care the conditions in patients.","Patna","Master Degree","3","2","Hiring of oncologist Doctor",R.drawable.oncology));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced  Oncology to care the conditions in patients.","Delhi","Master Degree","3","2","Fresher Job of Oncologist Doctor",R.drawable.oncology));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced  Oncology to care the conditions in patients.","Chennai","Master Degree","3","2","Required DM OR DNB (Medical Oncologist)",R.drawable.oncology));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced  Oncology to care the conditions in patients.","Noida","Master Degree","3","2","Oncologist Doctors",R.drawable.oncology));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced  Oncology to care the conditions in patients.","Jaipur","Master Degree","3","2","Oncologist Doctors",R.drawable.oncology));
         ResultTwoAdapter adapter = new ResultTwoAdapter(list,this);
         binding.rv4.setAdapter(adapter);
 

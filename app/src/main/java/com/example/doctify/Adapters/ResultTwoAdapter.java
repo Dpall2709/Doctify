@@ -44,6 +44,7 @@ public class ResultTwoAdapter extends RecyclerView.Adapter<ResultTwoAdapter.view
         holder.date.setText(model.getDate());
         holder.name.setText(model.getName());
         holder.image.setImageResource(model.getImage());
+        holder.salary.setText(model.getSalary());
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +54,7 @@ public class ResultTwoAdapter extends RecyclerView.Adapter<ResultTwoAdapter.view
                 intent.putExtra("degree",model.getDegree());
                 intent.putExtra("image",model.getImage());
                 intent.putExtra("name",model.getName());
+                intent.putExtra("salary",model.getSalary());
                 context.startActivity(intent);
             }
         });

@@ -53,6 +53,7 @@ public class ResultThreeAdapter extends RecyclerView.Adapter<ResultThreeAdapter.
                 intent.putExtra("degree",model.getDegree());
                 intent.putExtra("image",model.getImage());
                 intent.putExtra("name",model.getName());
+
                 context.startActivity(intent);
             }
         });

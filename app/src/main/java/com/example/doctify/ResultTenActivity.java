@@ -75,13 +75,13 @@ public class ResultTenActivity extends AppCompatActivity {
         binding.resulthead.setText(name);
 
         ArrayList<ResultTwoModel> list = new ArrayList<>();
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","patna","Master Degree","30","2","MD Medicine",R.drawable.pharmacy));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","Lakhisarai","Master Degree","30","2","MD Medicine",R.drawable.pharmacy));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","MD Medicine",R.drawable.pharmacy));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","MD Medicine",R.drawable.pharmacy));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","MD Medicine",R.drawable.pharmacy));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","MD Medicine",R.drawable.pharmacy));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","MD Medicine",R.drawable.pharmacy));
+        list.add(new ResultTwoModel("We are hiring a doctor in MD in medicine who can evaluate patients and provide appropriate medical treatment for various illnesses and injuries."," Meerut, Uttar Pradesh","MBBS/MD Medicine","1.5","2","MD Community Medicine Job",R.drawable.pharmacy));
+        list.add(new ResultTwoModel("We are hiring Doctors of MD in medicines, who can see patients who are not ill or injured but who are seeking to maintain their current level of health","Pune, Maharashtra","MBBS/MD Medicine","3","2","Requirement of MD Medicine Doctor",R.drawable.pharmacy));
+        list.add(new ResultTwoModel("We are hiring a doctor in MD in medicine who can prescribe, administer and dispense medication in accordance with state and federal statutes.","Patna, Bihar","MBBS/MD Medicine","4","2","Hiring of MD Medicine Doctor",R.drawable.pharmacy));
+        list.add(new ResultTwoModel("We are hiring M.D. in medical doctors to treat those admitted or referred to the hospital.","Kolkata, West Bengal","MBBS/MD Medicine","4","2","MD General Medicine Specialist Job",R.drawable.pharmacy));
+        list.add(new ResultTwoModel("We are hiring a MD required doctor, who has a current state medical licence as well as board certification in emergency medicine or family medicine assets.", "Mumbai, Maharashtra","MBBS/MD Medicine","4","2","Specialists Doctor of MD Medicine",R.drawable.pharmacy));
+        list.add(new ResultTwoModel("We are hiring MD in medical hospital doctors who can diagnose and treat medical conditions, disorders and diseases through the application of specialist medical skills and knowledge.","Chennai, Tamil Nadu","MBBS/MD Medicine","5","2","MD Physician",R.drawable.pharmacy));
+        list.add(new ResultTwoModel("We are looking to hire a doctor with outstanding medical and excellent skills. Doctors need to be very passionate, have attentive listening skills","Meerut, Uttar Pradesh","MBBS/MD Medicine","3.5","2","Internal Medicine MD",R.drawable.pharmacy));
         ResultTwoAdapter adapter = new ResultTwoAdapter(list,this);
         binding.rv4.setAdapter(adapter);
 

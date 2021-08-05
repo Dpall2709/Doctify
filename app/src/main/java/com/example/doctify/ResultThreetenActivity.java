@@ -75,13 +75,13 @@ public class ResultThreetenActivity extends AppCompatActivity {
         binding.resulthead.setText(name);
 
         ArrayList<ResultTwoModel> list = new ArrayList<>();
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","patna","Master Degree","30","2","General",R.drawable.physician));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","Lakhisarai","Master Degree","30","2","General",R.drawable.physician));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","General",R.drawable.physician));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","General",R.drawable.physician));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","General",R.drawable.physician));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","General",R.drawable.physician));
-        list.add(new ResultTwoModel("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat felis arcu, libero volutpat ac ullamcorper in.","New Delhi","Master Degree","30","2","General",R.drawable.physician));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced General Surgeon to care the conditions in patients.","Madhubani","Master Degree","3","2","General & Laparoscopic Surgeon/Surgery",R.drawable.physician));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced General Surgeon to care the conditions in patients.","Agra","Master Degree","3","2","Medical Faculty – Senior General Surgeon job",R.drawable.physician));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced General Surgeon to care the conditions in patients.","Patna","Master Degree","3","2","Vacancy of General Surgeon",R.drawable.physician));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced General Surgeon to care the conditions in patients.","Buxar","Master Degree","3","2","Urgent Hiring of General Surgeon",R.drawable.physician));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced General Surgeon to care the conditions in patients.","Gurugram","Master Degree","3","2","Urgent Opening For General Surgeon & Medicine",R.drawable.physician));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced General Surgeon to care the conditions in patients.","Indore","Master Degree","3","2","Requirement of General Surgeon",R.drawable.physician));
+        list.add(new ResultTwoModel("We look to appoint a dedicated and experienced General Surgeon to care the conditions in patients.","Chennai","Master Degree","3","2","Female General Surgeon",R.drawable.physician));
         ResultTwoAdapter adapter = new ResultTwoAdapter(list,this);
         binding.rv4.setAdapter(adapter);
 

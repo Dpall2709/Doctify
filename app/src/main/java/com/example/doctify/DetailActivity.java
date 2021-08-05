@@ -43,11 +43,13 @@ public class  DetailActivity extends AppCompatActivity {
         String place = getIntent().getStringExtra("place");
         String degree = getIntent().getStringExtra("degree");
         String name = getIntent().getStringExtra("name");
+        String salary = getIntent().getStringExtra("salary");
         int image = getIntent().getIntExtra("image",0);
         binding.detaildegree.setText(place);
         binding.detailPlace.setText(degree);
         binding.imgHos.setImageResource(image);
        binding.nameHos.setText(name);
+       binding.sal.setText(salary);
        binding.chat.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
